@@ -17,9 +17,10 @@ fn main():
 
         # doesnt seem to be simdable??
         # relevant? https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.6270
+        # nah
         if math.gcd(a, b) == 1:
             count += 1
-        #print("C: " + String(count) + " I: " + String(i))
+        # print("C: " + String(count) + " I: " + String(i))
 
         if count > 0:
             var pi = pi_from_probability(count, i)
